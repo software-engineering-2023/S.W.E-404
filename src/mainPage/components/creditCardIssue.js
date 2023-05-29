@@ -26,7 +26,8 @@ const CreditCardIssue = () => {
                 <label >Credit Card was theft</label>
                 <input type="radio" id="theft" name="issue" value="Credit Card was theft"/>
             </div>
-                
+            
+            
 
             <button id="report-button" type="button" onClick={handleButtonClick}>Apply for replacement</button>
 

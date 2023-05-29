@@ -32,6 +32,7 @@ const MainForms = (props) => {
         { label: "Credit Card Number", type: "text" },
         { label: "National ID", type: "text" },
         { label: "Phone Number", type: "text" },
+        { label: "Credit Card Limit", type: "text" },
       ]
     },
     {
@@ -42,6 +43,8 @@ const MainForms = (props) => {
         { label: "what is the loan for", type: "text" },
         { label: "National ID", type: "text" },
         { label: "Phone Number", type: "text" },
+        { label: "Loan Amount", type: "text" },
+
       ]
     },
     {
@@ -49,6 +52,10 @@ const MainForms = (props) => {
       formFields: [
         { label: "Bank Account Number", type: "text" },
         { label: "Amount", type: "number" },
+        { label: "SWFT code", type: "number" },
+        { label: "IBAN code", type: "number" },
+        { label: "Bank Name", type: "number" },
+        { label: "Account holder Name", type: "number" },
     ]
     },
   ];
